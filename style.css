@@ -81,7 +81,7 @@ body{
     bottom:0;
     top:0;
     width:70%;
-    border:1px solid red;
+    /* border:1px solid red; */
     background-color: white;
 }
 
@@ -640,6 +640,7 @@ font-size: 17px;
         top:6%;
         border-radius: 10px;
     }
+
 }
 
 @media only screen and ((min-width:809px) and (orientation:landscape)){
