@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/a232ea0758.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <div class="header-menu">
+      <i class="fa-solid fa-bars menu-button"></i>
+      <img src="/images/logo.svg" alt="logo">
+      <div class="desktop-menu">
+        <div class="desktop collections">Collections</div>
+        <div class="desktop men">Men</div>
+        <div class="desktop women">Women</div>
+        <div class="desktop about">About</div>
+        <div class="desktop contact">Contact</div>
+      </div>
+    </div>
+    <div class="header-cart-profile">
+      <div class="cart-icon">
+        <img src="/images/icon-cart.svg" class='shopping-cart' alt="shopping-cart">
+        <div class="cart-quantity"></div>
+      </div>
+      <img src="/images/image-avatar.png" class="profile-picture" alt="profile-picture">
+    </div>
+  </header>
+  <section>
+  <div class="product">
+    <div class="img-slide">
+      <img src="/images/image-product-1.jpg" alt="shoe">
+    </div>
+    <div class="img-slide">
+      <img src="/images/image-product-2.jpg" alt="shoe">
+    </div>
+    <div class="img-slide">
+      <img src="/images/image-product-3.jpg" alt="shoe">
+    </div>
+    <div class="img-slide">
+      <img src="/images/image-product-4.jpg" alt="shoe">
+    </div>
+
+    <div class="thumbnail-product">
+      <img src="/images/image-product-1-thumbnail.jpg" alt="shoe" class="modal-popup">
+      <img src="/images/image-product-2-thumbnail.jpg" alt="shoe" class="modal-popup">
+      <img src="/images/image-product-3-thumbnail.jpg" alt="shoe" class="modal-popup">
+      <img src="/images/image-product-4-thumbnail.jpg" alt="shoe" class="modal-popup">
+    </div>
+
+    <div class="buttons">
+      <button class='button-left' type="button" >
+        <i class="fa-solid fa-arrow-left" ></i>
+      </button>
+      <button class='button-right' type="button" >
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="cart">
+    <h3>Cart</h3>
+    <hr>
+    <h3 class="cart-details">
+      <p>Your cart is empty</p>
+    </h3>
+  </div>
+
+  <div class="description">
+    <h4 class="brand">SNEAKER COMPANY</h4>
+    <h1 class="title">Fall Limited Edition Sneakers</h1>
+    <p class="description-text">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+    <div class="price">
+      <div class="first-price">
+
+        <h2 class="current-price">$ 125.00</h2>
+        <h3 class="discount">50%</h3>
+      </div>
+        <h3 class="old-price">$250.00</h3>
+    </div>
+    <div class="order">
+      <div class="quantity">
+        <button  type="button" class="decrease"><i class="fa-solid fa-minus"></i></button>
+        <p class="amount"> 0</p>
+        <button  type="button" class="increase"><i class="fa-solid fa-plus"></i></button>
+      </div>
+
+      <button type="button" class="purchase">
+        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        <p>Add to cart</p>
+      </button>
+  </div>
+  </section>
+  </div>
+
+  <div class="menu-cover"></div>
+
+  <div class="menu">
+    <i class="fa-solid fa-xmark close-menu"></i>
+    <div class="menu-categories">
+
+      <div class="category">
+        <h3 class="category-title">Collections</h3>
+        <div class="menu-category">
+          <h3>Spring</h3>
+          <h3>Summer</h3>
+          <h3>Winter</h3>
+        </div>
+      </div>
+      
+      <div class="category">
+        <h3 class="category-title">Men</h3>
+        <div class="menu-category">
+          <h3>Sports</h3>
+          <h3>Casual</h3>
+          <h3>Office</h3>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3 class="category-title">Women</h3>
+        <div class="menu-category">
+          <h3>Sports</h3>
+          <h3>Casual</h3>
+          <h3>Office</h3>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3 class="category-title">About</h3>
+        <div class="about menu-category">
+          <p>
+            Sneakers is a young company that is set on provind the highest leather goods at affordable prices.
+          </p>
+          <br>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3 class="category-title">Contact</h3>
+        <div class="contact menu-category">
+          <p>Phone: +1 245 765 23</p>
+          <p>Email: sneakers@snkrHelp.com</p>
+          <p>Salt Lake City</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal">
+    <button type="button" class="close-modal">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="modal-product">
+      <!-- <img src="images/image-product-1.jpg" alt="product" class="modal-image"> -->
+      <div class="modal-slide">
+        <img src="/images/image-product-1.jpg" alt="shoe">
+      </div>
+      <div class="modal-slide">
+        <img src="/images/image-product-2.jpg" alt="shoe">
+      </div>
+      <div class="modal-slide">
+        <img src="/images/image-product-3.jpg" alt="shoe">
+      </div>
+      <div class="modal-slide">
+        <img src="/images/image-product-4.jpg" alt="shoe">
+      </div>
+      <div class="modal-buttons">
+        <button type="button"><i class="fa-solid fa-chevron-left modal-btn-left" ></i></button>
+        <button type="button"><i class="fa-solid fa-chevron-right modal-btn-right" ></i></button>
+      </div>
+      <div class="modal-thumbnail">
+        <img src="/images/image-product-1-thumbnail.jpg" alt="product" class="modal-thumbnail-image" onclick="modalThumbnailSelect(1)">
+        <img src="/images/image-product-2-thumbnail.jpg" alt="product" class="modal-thumbnail-image" onclick="modalThumbnailSelect(2)">
+        <img src="/images/image-product-3-thumbnail.jpg" alt="product" class="modal-thumbnail-image" onclick="modalThumbnailSelect(3)">
+        <img src="/images/image-product-4-thumbnail.jpg" alt="product" class="modal-thumbnail-image" onclick="modalThumbnailSelect(4)">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="javascript.js"></script>
+</html>
