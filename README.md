@@ -25,12 +25,14 @@ Users should be able to:
 
 Desktop version
 
-![desktop version](/ss/desktop.png)
+![desktop version](/ss/desktop2.png)
 
 Mobile version
 
 ![mobile version](/ss/mobile.png)
+
 ![mobile version](/ss/mobile-cart.png)
+
 ![mobile version](/ss/mobile-menu.png)
 
 ### Links
